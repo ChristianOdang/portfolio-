@@ -15,7 +15,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 12px 7%;
   display: flex;
   align-items: center;
@@ -64,6 +64,18 @@ label {
     top: 100%;
     left: 0;
     width: 100%;
-
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    background: #fff;
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  header .navbar a {
+    display: block;
+    padding: 1rem 1rem;
+    border-bottom: .2 solid rgba(0, 0, 0, 0.1);
+    margin: 1rem 1rem;
+    font-size: 2rem;
   }
 }
