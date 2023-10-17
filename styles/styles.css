@@ -250,10 +250,10 @@ label {
     text-align: center;
   }
   .about {
-    margin-top: 64px;
+    margin-top: 94px;
   }
   .skills {
-    margin-top: -64px;
+    margin-top: -94px;
   }
   .skills, .about {
     height: 100vh;
