@@ -116,6 +116,87 @@ label {
   margin-bottom: 12px;
 }
 
+/* skills section */
+.skills {
+  height: 65vh;
+  width: 100%;
+}
+.skills .skills-content {
+  padding: 12px 7%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+  text-align: justify;
+}
+.skills .skills-content .left {
+  display: inline-block;
+  background: #f9f9f9;
+  color: #2f2f2f;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 0px 16px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 16px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: rgb(172, 112, 124);
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #2f2f2f;
+}
+.skills{
+  color: rgb(114, 114, 230);
+}
+.skills .skills-content .right .html::before{
+  width: 90%;
+}
+.skills-content .right .css::before{
+  width: 60%;
+}
+.skills-content .right .js::before{
+  width: 75%;
+}
+.skills-content .right .py::before{
+  width: 50%;
+}
+.skills-content .right .mern::before{
+  width: 70%;
+}
+
 
 
 
@@ -167,5 +248,13 @@ label {
   .hero-image {
     margin: 10% 0;
     text-align: center;
+  }
+  .skills {
+    margin-top: 25%;
+  }
+  .skills .skills-content .column {
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 10px;
   }
 }
