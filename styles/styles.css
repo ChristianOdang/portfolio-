@@ -76,6 +76,10 @@ label {
     padding: 1rem 1rem;
     border-bottom: .2 solid rgba(0, 0, 0, 0.1);
     margin: 1rem 1rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+  header input:checked ~ .navbar {
+    transform: scaleY(1);
+    opacity: 1;
   }
 }
