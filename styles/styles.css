@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #e6e0e0;
+  background: linear-gradient(#f9f9f9, #999);
 }
 html {
   font-size: 62.5%;
@@ -58,5 +58,12 @@ label {
   label {
     visibility: visible;
     opacity: 1;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
   }
 }
