@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e6e0e0;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 12px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.logo {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+}
+header .navbar a {
+  margin-left: 3rem;
+  font-size: 1.7rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
