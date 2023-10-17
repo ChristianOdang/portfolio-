@@ -249,8 +249,9 @@ label {
     margin: 10% 0;
     text-align: center;
   }
-  .skills {
-    margin-top: 25%;
+  .skills, .about {
+    height: 100vh;
+    width: 100%;
   }
   .skills .skills-content .column {
     width: 400px;
