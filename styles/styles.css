@@ -68,59 +68,39 @@ section .title::after{
   background: #555;
   transform: translateX(-50%);
 }
-.navbar{
+header {
   position: fixed;
   width: 100%;
-  z-index: 999;
-  padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
-  transition: all 0.3s ease;
-}
-.navbar .sticky{
-  padding: 15px 0;
-  background: aqua;
-}
-.navbar .max-width{
+  top: 0;
+  left: 0;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 12px 7%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1000;
 }
-.navbar .logo a{
-  color: #555454;
-  font-size: 35px;
-  font-weight: 600;
-}
-.navbar .logo a span{
-  color: crimson;
-  transition: all 0.3s ease;
-}
-.navbar .sticky .logo a span{
-  color: aqua;
-}
-.navbar .menu li{
-  list-style: none;
-  display: inline-block;
-}
-.navbar .menu li a{
-  display: block;
-  color: #555454;
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 25px;
-  transition: color 0.3s ease;
-}
-.navbar .menu li a:hover{
+.logo {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
   color: crimson;
 }
-.navbar .sticky .menu li a:hover{
-  color: #fff;
-}
-.menu-btn{
+header .navbar a {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
   color: #555454;
-  font-size: 23px;
-  font-weight: 800;
-  cursor: pointer;
+}
+input {
   display: none;
+}
+label {
+  color: #555454;
+  font-size: 1.7rem;
+  visibility: hidden;
+  opacity: 0;
 }
 .scroll-up-btn{
   position: fixed;
@@ -561,6 +541,38 @@ footer{
     width: 400px;
     display: inline-block;
     margin-bottom: 10px;
+  }
+}
+@media (max-width:786px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+  label {
+    visibility: visible;
+    opacity: 1;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border-top: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    background: #fff;
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  header .navbar a {
+    display: block;
+    padding: 1rem 1rem;
+    border-bottom: .2rem solid rgba(0, 0, 0, 0.1);
+    margin: 1rem 1rem;
+    font-size: 2rem;
+  }
+  header input:checked ~ .navbar {
+    transform: scaleY(1);
+    opacity: 1;
   }
 }
 @media (max-width: 690px){

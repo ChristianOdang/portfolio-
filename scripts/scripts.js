@@ -1,3 +1,4 @@
+
 const dynamicText = document.querySelector(".typing");
 const words = ["Programmer", "Developer"];
 
