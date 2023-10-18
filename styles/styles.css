@@ -63,7 +63,7 @@ section .title::after{
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: aqua;
+  color: #beb6b6;
   padding: 0 5px;
   background: #555;
   transform: translateX(-50%);
@@ -86,7 +86,7 @@ section .title::after{
   justify-content: space-between;
 }
 .navbar .logo a{
-  color: aqua;
+  color: #867d7d;
   font-size: 35px;
   font-weight: 600;
 }
@@ -103,7 +103,7 @@ section .title::after{
 }
 .navbar .menu li a{
   display: block;
-  color: #fff;
+  color: #867d7d;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -116,8 +116,9 @@ section .title::after{
   color: #fff;
 }
 .menu-btn{
-  color: #fff;
+  color: #867d7d;
   font-size: 23px;
+  font-weight: 800;
   cursor: pointer;
   display: none;
 }
@@ -154,7 +155,7 @@ body{
 .home{
   display: flex;
   height: 100vh;
-  color: aqua;
+  color: #867d7d;
   min-height: 500px;
   font-family: sans-serif;
 }
@@ -184,7 +185,7 @@ body{
 .home .home-content a{
   display: inline-block;
   background: crimson;
-  color: aqua;
+  color: #867d7d;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
@@ -200,7 +201,7 @@ body{
 
 /* about section */
 .about{
-  color: aqua;
+  color: #867d7d;
   display: flex;
 }
 .about .title::after{
@@ -224,7 +225,7 @@ body{
   margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-  color: aqua;
+  color: #999;
 }
 .about .about-content .right p{
   text-align: justify;
@@ -252,7 +253,7 @@ body{
 /* project styling */
 .projects{
   text-align: center;
-  color: aqua;
+  color: #867d7d;
   justify-content: center;
   font-size: 50px;
 }
@@ -350,7 +351,7 @@ body{
   background: crimson;
 }
 .skills{
-  color: aqua;
+  color: #867d7d;
 }
 .skills .skills-content .right .html::before{
   width: 90%;
@@ -376,7 +377,7 @@ body{
   width: calc(50% - 30px);
 }
 .contact{
-  color: aqua;
+  color: #867d7d;
 }
 .contact .contact-content .text{
   font-size: 20px;
@@ -405,7 +406,7 @@ body{
   font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-  color: #666;
+  color: #f9f9f9;
 }
 .contact .right form .fields{
   display: flex;
@@ -448,7 +449,7 @@ body{
   align-items: center;
 }
 .right form .button-area button{
-  color: aqua;
+  color: #867d7d;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -470,7 +471,7 @@ body{
 /* footer styling */
 footer{
   padding: 15px 23px;
-  color: aqua;
+  color: #867d7d;
   align-items: center;
 }
 
