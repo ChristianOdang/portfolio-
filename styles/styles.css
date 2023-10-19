@@ -95,6 +95,10 @@ header .navbar a {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   color: #555454;
+  transition: .6s ease;
+}
+header .navbar a:hover {
+  color: crimson;
 }
 .menu_bars {
   display: none;
@@ -175,7 +179,7 @@ body{
   font-weight: 800;
   border-radius: 6px;
   border: none;
-  transition: all 0.3s ease;
+  transition: 0.6s ease;
 }
 .home .home-content a:hover{
   color: crimson;
@@ -224,7 +228,7 @@ body{
   margin-top: 20px;
   border-radius: 6px;
   border: none;
-  transition: all 0.3s ease;
+  transition: 0.6s ease;
 }
 .about .about-content .right a:hover{
   color: crimson;
@@ -384,6 +388,7 @@ body{
 .contact .contact-content .row i{
   font-size: 25px;
   color: crimson;
+  margin: 0 10px;
 }
 .contact .contact-content .info .head{
   font-weight: 500;
@@ -444,7 +449,7 @@ body{
   flex-wrap: nowrap;
   background: crimson;
   border: none;
-  transition: all 0.3s ease;
+  transition: 0.6s ease;
 }
 .right form .button-area button:hover{
   color: crimson;
@@ -455,7 +460,7 @@ body{
 footer{
   padding: 15px 23px;
   color: #555454;
-  align-items: center;
+  text-align: center;
 }
 
 /* media query */
